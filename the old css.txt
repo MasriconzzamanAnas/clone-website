@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #000000;
+}
+
+header {
+    background-color: #020d38;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+}
+
+/* Hero Section */
+
+
+/* .banner .bg {
+    width: 100%;
+    height: 690px;
+    position:relative;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+} 
+.banner {
+    background: linear-gradient(to right, #2d3a70, #10298d ); 
+    text-align: center;
+    padding: 50px 20px; 
+}*/
+.banner {
+    position: relative;
+    align-items: center;
+    height: 550px;
+    background: url('../img/hero-bg-2.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    padding: 0 10%;
+    z-index: 0;
+    text-align: center;
+    padding: 50px 20px; 
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(to right, #243783, #10298d );
+}
+ /* .gredeancolor{
+    width: 680px !important;
+    height: 550px;
+    background: linear-gradient(to right, #2d3a70, #10298d );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10%;
+    z-index: 1;
+
+}  */
+
+/* .banner-content h1 {
+    color:#ddd;
+    font-size: 3rem;
+    margin: 10px 0;
+}
+
+.banner-content h1 span {
+    color: #3cd3a4;
+    text-decoration: underline;
+}
+
+.banner-content p {
+    color:#dad4d4;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #3cd3a4;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn.secondary {
+    background-color: transparent;
+    border: 1px solid #3cd3a4;
+}
+
+/* .banner-images {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+} 
+
+.banner-images .background {
+    max-width: 100%;
+    text-align: center;
+    padding: 50px 20px;
+    z-index: -1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+*/
+
+  
+  /* About Section 
+  .about {
+    padding: 2rem 0;
+    text-align: center;
+  }*/
+  
+  /* Services Section 
+  .services {
+    background: #f4f4f4;
+    padding: 2rem 0;
+    text-align: center;
+  }
+  
+  .services .service-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .services .service-item {
+    flex: 1 1 calc(50% - 10px);
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+  }*/
+  
+  /* Footer 
+  .footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+  }
+   */
