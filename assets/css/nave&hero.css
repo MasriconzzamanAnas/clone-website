@@ -106,7 +106,6 @@ header .navbar ul li a{
 }
 
 .banner-content{
-    max-width: 900px;
     align-items: start;
     color: #c4c0c0;
 }
@@ -121,6 +120,66 @@ header .navbar ul li a{
     font-size: 34px;
     color: #ffffff;
     font-weight: 600;
-    text-decoration: underline;
+    text-decoration: underline #1ACC8D;
+}
+
+.banner-content .buttons{
+    position: relative;
+    width: 330px;
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10%;
+}
+
+.banner-content .buttons .btn-first{
+    text-decoration: none;
+    color: #ffffff;
+    border: 1px solid #1ACC8D ;
+    padding: 10px 15px;
+    border-radius: 50px;
+    font-size: 12px;
+    align-items: center;
+    background: #1ACC8D;
+}
+
+.banner-content .buttons .btn-first:hover{
+    background: transparent;
+    transition: all cubic-bezier(.57,.65,.66,.64) 0.5s;
+}
+
+.banner-content .buttons .btn-secondary{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 50px;
+    font-size: 12px;
+    align-items: center;
+}
+
+.banner-content .buttons .btn .fa-regular{
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+.banner-content .buttons .btn-secondary:hover{
+    background: #1ACC8D;
+    transition: all cubic-bezier(.57,.65,.66,.64) 0.5s;
+}
+/* Hero image section */
+.banner-images{
+    align-items: end;
+    color: #c4c0c0;
+    position: relative;
+    width: 450px;
+    height: 450px;
+}
+
+.banner .banner-images .sidebar{
+    width: 450px;
+    height: 500px;
+    box-shadow: 0 0 10px rgba(42, 44, 185, 0.3);
+    display: flex;
 }
 
