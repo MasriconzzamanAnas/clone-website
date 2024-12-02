@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+.check-details{
+    align-items: center;
+    display:flex;
+    position: relative;;
+    justify-content: center;
+    padding: 0 ;
+    margin: 0 10%;
+}
+
+.check-details .details-container{
+    background: #eeeeee;
+    color: #000;
+    width: 100%;
+    margin-top: 10%;
+}
+
+.check-details .details-container .head .p{
+    font-size: 12px;
+    font-weight: 400;
+    color: #b8b8b8;
+}
+
+.check-details .details-container .head .p span{
+    color: #1ACC8D;
+    width: 200px;
+}
+
+.check-details .details-container .head h3{
+    font-size: 18px;
+    font-weight: 550;
+    color: #040677 ;
+}
+
+.check-details .details-container .details1 {
+    margin-top: 13%;
+    height:300px;
+    align-items:center;
+    display: flex;
+    justify-content: center;
+}
+
+.check-details .details-container .details1 img{
+    width: 40%;
+    height: auto;
+}
+
+.check-details .details-container .details1 .detl h4{
+    color:#040677;
+    font-weight: 500;
+}
+
+.check-details .details-container .details1 .detl p{
+    color:#000;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.check-details .details-container .details1 .detl .fa-solid{
+    color: #1ACC8D;
+}
+
+.check-details .details-container .details1 .detl .fa-solid span{
+    color:#000;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 0.5cm;
+    margin-left: 5px;
+}
+
+.check-details .details-container .details2 {
+    margin-top: 13%;
+    height:300px;
+    align-items:center;
+    display: flex;
+    justify-content: center;
+}
+
+.check-details .details-container .details2 .detl h4 {
+    color:#040677;
+    font-weight: 500;
+}
+
+.check-details .details-container .details2 .detl p{
+    color:#000;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 0.5cm;
+}
+
+.check-details .details-container .details2 img{
+    width: 40%;
+    height: auto;
+}
+
+
+
+
