@@ -79,6 +79,7 @@ header .navbar ul li a{
 .navbar ul li:hover > ul{
     background-color: transparent;
     display: block;
+    background: #2B2DB7;
     transition: all ease-in 0.5s;
 }
 /* Hero section */
