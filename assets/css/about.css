@@ -1,5 +1,119 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
+.about-us{
+    align-items: center;
+    display:flex;
+    position: relative;;
+    height: 550px;
+    justify-content: space-between;
+    padding: 0 ;
+    margin: 0 10%;
+}
 
+.about-us .about0{
+    background-color: #ebe4e4;
+    color: #fff;
+    width: 390px;
+    padding: 10px;
+    margin-top: 30px;
+}
 
+.about-us .about0 .us{
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-bottom: 5px;
+    padding-left: 6px;
+    color: #1ACC8D;
+}
 
+.about-us .about0 h3{
+    font-size: 20px;
+    font-weight: 400;
+    color: #040677;
+}
+
+.about-us .about0 p{
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    color: #000;
+}
+
+.about-us .about0 button{
+    font-size: 10px;
+    font-weight: 400;
+    padding: 5px 15px;
+    border: none;
+    background-color: #1ACC8D;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.about-us .about0 button a{
+    text-decoration:  none;
+}
+.about-us .about0 button:hover{
+    background-color: transparent;
+    border: 1px solid #1ACC8D;
+}
+
+.about-us .another-about{
+    background: linear-gradient(rgba(248, 248, 248, 0.4), rgba(255, 247, 247, 0.5));
+    color: #000000;
+    width: 550px;
+    height: 400px;
+    padding: 10px; 
+    margin-top: 30px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.about-us .another-about div{
+    height: 200px;
+    width: 230px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding-top: 40px;
+    background-color: #EBE4E4;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.about-us .another-about div .fa-solid{
+    padding-bottom: -70px;
+    margin-top: -90px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    color: #1ACC8D;
+}
+
+.about-us .another-about div .fa-brands{
+    padding-bottom: -70px;
+    margin-top: -90px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    color: #1ACC8D;
+}
+
+.about-us .another-about div h4{
+    font-size: 18px;
+    font-weight: 400;
+    color: #040677;
+    margin-bottom: 10px;
+    padding-left:6px;
+}
+
+.about-us .another-about div p{
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    color: #000;
+    padding-left:6px;
+}
