@@ -70,7 +70,7 @@
 }
 
 .check-details .details-container .details2 {
-    margin-top: 13%;
+    margin-top: 20%;
     height:300px;
     align-items:center;
     display: flex;
@@ -94,6 +94,64 @@
     height: auto;
 }
 
+.check-details .details-container .details3 {
+    margin-top: 28%;
+    height:300px;
+    align-items:center;
+    display: flex;
+    justify-content: center;
+}
 
+.check-details .details-container .details3 img{
+    width: 40%;
+    height: auto;
+}
 
+.check-details .details-container .details3 .detl h4{
+    color:#040677;
+    font-weight: 500;
+}
+
+.check-details .details-container .details3 .detl p{
+    color:#000;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.check-details .details-container .details3 .detl .fa-solid{
+    color: #1ACC8D;
+}
+
+.check-details .details-container .details3 .detl .fa-solid span{
+    color:#000;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 0.5cm;
+    margin-left: 5px;
+}
+
+.check-details .details-container .details4 {
+    margin-top: 95%;
+    height:300px;
+    align-items:center;
+    display: flex;
+    justify-content: center;
+}
+
+.check-details .details-container .details4 .detl h4 {
+    color:#040677;
+    font-weight: 500;
+}
+
+.check-details .details-container .details4 .detl p{
+    color:#000;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 0.5cm;
+}
+
+.check-details .details-container .details4 img{
+    width: 40%;
+    height: auto;
+}
 
