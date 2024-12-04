@@ -156,3 +156,169 @@
     height: 500px;
 }
 
+/* Default styles for large desktops remain as-is */
+
+/* Large Desktops */
+@media screen and (max-width: 1200px) {
+  .check-details {
+    margin: 0 5%;
+  }
+
+  .check-details .details-container .details1,
+  .check-details .details-container .details2,
+  .check-details .details-container .details3,
+  .check-details .details-container .details4 {
+    height: auto;
+    margin-top: 8%;
+  }
+
+  .check-details .details-container .details1 img,
+  .check-details .details-container .details2 img,
+  .check-details .details-container .details3 img,
+  .check-details .details-container .details4 img {
+    width: 45%;
+  }
+
+  .check-details .details-container .details3 img {
+    height: auto;
+  }
+
+  .check-details .details-container .details4 img {
+    height: auto;
+  }
+}
+  
+  /* Tablets (Landscape) */
+@media screen and (max-width: 1024px) {
+  .check-details {
+    margin: 0 5%;
+  }
+
+  .check-details .details-container .details1,
+  .check-details .details-container .details2,
+  .check-details .details-container .details3,
+  .check-details .details-container .details4 {
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 5%;
+  }
+
+  .check-details .details-container .details1 img,
+  .check-details .details-container .details2 img,
+  .check-details .details3 img,
+  .check-details .details4 img {
+    width: 50%;
+    height: auto;
+  }
+
+  .check-details .details-container .details1 .detl,
+  .check-details .details-container .details2 .detl,
+  .check-details .details-container .details3 .detl,
+  .check-details .details-container .details4 .detl {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+  
+  /* Tablets (Portrait) */
+@media screen and (max-width: 768px) {
+  .check-details {
+    margin: 0 5%;
+  }
+
+  .check-details .details-container {
+    margin-top: 5%;
+  }
+
+  .check-details .details-container .details1,
+  .check-details .details-container .details2,
+  .check-details .details-container .details3,
+  .check-details .details-container .details4 {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+  }
+
+  .check-details .details-container .details1 img,
+  .check-details .details-container .details2 img,
+  .check-details .details3 img,
+  .check-details .details4 img {
+    width: 60%;
+    height: auto;
+  }
+
+  .check-details .details-container .details1 .detl,
+  .check-details .details-container .details2 .detl,
+  .check-details .details-container .details3 .detl,
+  .check-details .details-container .details4 .detl {
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  .check-details .details-container .details3 img {
+    height: auto;
+  }
+}
+  
+  /* Mobile Phones */
+@media screen and (max-width: 576px) {
+  .check-details {
+    margin: 0 2%;
+  }
+
+  .check-details .details-container .details1,
+  .check-details .details-container .details2,
+  .check-details .details-container .details3,
+  .check-details .details-container .details4 {
+    flex-direction: column;
+    margin-top: 5%;
+    height: auto;
+  }
+
+  .check-details .details-container .details1 img,
+  .check-details .details-container .details2 img,
+  .check-details .details3 img,
+  .check-details .details4 img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .check-details .details-container .details1 .detl,
+  .check-details .details-container .details2 .detl,
+  .check-details .details-container .details3 .detl,
+  .check-details .details-container .details4 .detl {
+    width: 100%;
+    text-align: left;
+    padding: 0 10px;
+  }
+
+  .check-details .details-container .head h3 {
+    font-size: 16px;
+    text-align: center;
+  }
+}
+  
+  /* Small Phones */
+@media screen and (max-width: 480px) {
+  .check-details .details-container .details1 img,
+  .check-details .details-container .details2 img,
+  .check-details .details3 img,
+  .check-details .details4 img {
+    width: 100%;
+  }
+
+  .check-details .details-container .head h3 {
+    font-size: 14px;
+  }
+
+  .check-details .details-container .details1 .detl p,
+  .check-details .details-container .details2 .detl p,
+  .check-details .details-container .details3 .detl p,
+  .check-details .details-container .details4 .detl p {
+    font-size: 12px;
+  }
+}
+  

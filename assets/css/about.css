@@ -117,3 +117,113 @@
     color: #000;
     padding-left:6px;
 }
+
+
+/* Default Styles (for desktop and large screens) */
+
+/* Large Desktops */
+@media screen and (max-width: 1200px) {
+    .about-us {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .about-us .about0 {
+        width: 45%;
+        margin: 20px 5px;
+    }
+
+    .about-us .another-about {
+        width: 50%;
+        height: auto;
+        margin: 20px 5px;
+    }
+
+    .about-us .another-about div {
+        width: 45%;
+        margin: 10px 5px;
+    }
+}
+
+/* Tablets (Landscape) */
+@media screen and (max-width: 1024px) {
+    .about-us {
+        flex-direction: column;
+        height: auto;
+        margin: 0 5%;
+    }
+
+    .about-us .about0 {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .about-us .another-about {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .about-us .another-about div {
+        width: 48%;
+        margin: 10px 1%;
+    }
+}
+
+/* Tablets (Portrait) */
+@media screen and (max-width: 768px) {
+    .about-us {
+        margin: 0;
+        padding: 0;
+    }
+
+    .about-us .about0 {
+        width: 90%;
+        margin: 10px auto;
+        text-align: center;
+    }
+
+    .about-us .another-about {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .about-us .another-about div {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+/* Mobile Phones */
+@media screen and (max-width: 576px) {
+    .about-us .about0 {
+        width: 100%;
+    }
+
+    .about-us .another-about {
+        width: 100%;
+    }
+
+    .about-us .another-about div {
+        width: 100%;
+    }
+}
+
+/* Small Phones */
+@media screen and (max-width: 480px) {
+    .about-us {
+        padding: 10px;
+    }
+
+    .about-us .about0 h3 {
+        font-size: 18px;
+    }
+
+    .about-us .another-about div h4 {
+        font-size: 16px;
+    }
+
+    .about-us .another-about div p {
+        font-size: 12px;
+    }
+}

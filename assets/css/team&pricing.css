@@ -140,14 +140,14 @@ h3.section-subtitle {
   color: #7f8c8d;
 }
 
-.social-links a {
+.social-links a .fa-brands {
   margin: 0 5px;
   font-size: 18px;
-  color: #b5b5b6;
+  color: #2ecc71;
   text-decoration: none;
 }
 
-.social-links a:hover {
+.social-links a .fa-brands:hover {
   color: #254ea7;
 }
 

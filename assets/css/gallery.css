@@ -150,20 +150,128 @@ h3 {
     opacity: 1;
 }
   
-  /* Responsive Design */
-@media (max-width: 768px) {
-    .profile-pic {
-      width: 60px;
-      height: 60px;
-    }
+.gellery {
+    padding: 0;
+    margin: 5%;
+}
   
-    h3 {
-      font-size: 18px;
-    }
+.gellery .name {
+  margin-bottom: 30px;
+  text-align: center;
+}
   
-    .testimonial {
-      font-size: 14px;
-    }
+.gellery .name h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+  
+.gellery .gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Adjust to center on smaller screens */
+  margin: 0 auto;
+}
+  
+.gellery .gallery-container .gallery-item img {
+  width: 100%; /* Default full-width for smaller screens */
+  height: auto;
+  max-width: 250px;
+  margin: 5px;
+}
+
+/* Responsive for Gallery */
+@media screen and (max-width: 1024px) {
+  .gellery .gallery-container {
+    justify-content: space-around;
+  }
+
+  .gellery .gallery-container .gallery-item img {
+    max-width: 200px;
+    height: auto;
+    margin: 5px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .gellery {
+    margin: 5%;
+  }
+
+  .gellery .gallery-container {
+    justify-content: center;
+  }
+
+  .gellery .gallery-container .gallery-item img {
+    max-width: 180px;
+    margin: 5px auto;
+  }
+}
+  
+@media screen and (max-width: 576px) {
+  .gellery .gallery-container .gallery-item img {
+    max-width: 150px;
+    margin: 5px auto;
+  }
+}
+  
+
+  /* Responsive for Testimonials */
+@media screen and (max-width: 768px) {
+  .testimonial-section {
+    padding: 20px 5px;
+  }
+
+  .profile-pic {
+    width: 50px;
+    height: 50px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  .testimonial {
+    font-size: 13px;
+  }
+
+  .prev,
+  .next {
+    font-size: 18px;
+    padding: 6px;
+  }
+}
+  
+@media screen and (max-width: 576px) {
+  .testimonial-section {
+    padding: 15px;
+  }
+
+  .profile-pic {
+    width: 40px;
+    height: 40px;
+  }
+
+  h3 {
+    font-size: 14px;
+  }
+
+  .testimonial {
+    font-size: 12px;
+  }
+
+  .prev,
+  .next {
+    display: none; /* Hide navigation on smaller screens */
+  }
+
+  .dots {
+    gap: 5px;
+  }
+
+  .dot {
+    width: 6px;
+    height: 6px;
+  }
 }
   
   
